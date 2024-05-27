@@ -1,0 +1,26 @@
+.disciplina{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    border: 4px solid #777;
+    border-radius: 15px;
+    padding: 12px;
+    margin: 5px 0px;
+    cursor: pointer;
+}
+.disciplina:hover{
+    border-color: #a00;
+}
+.s1{
+    background-color: #aaa;
+    color: #355;
+}
+.s2{
+    background-color: #355;
+    color: #aaa;
+}
+.especial{ /*A chave important indica que esse estilo tem preferência sobre outros*/
+    background-color: darkturquoise !important;
+    color:navy !important;
+    border-color: fuchsia !important;
+}
