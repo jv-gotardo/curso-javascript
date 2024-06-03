@@ -1,0 +1,51 @@
+*{
+    padding: 1px;
+    margin: 2px;
+    border: solid;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+button{
+    width: 120px;
+    height: 40px;
+    background-color: darkred;
+    color: bisque;
+    border-radius: 8px;
+}
+.discip{
+    display: flex;
+    justify-content: center;
+    width: 260px;
+    border: 2px solid seagreen;
+    border-radius: 8px;
+    padding: 5%;
+}
+.dis1{
+    background-color: white;
+    color: black;
+}
+.dis2{
+    background-color: black;
+    color: white;
+}
+.d{
+    border: 4px solid black;
+    background-color: seagreen;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    height: 500px;
+    width: 300px;
+}
+.troca{
+    background-color: darkred !important;
+    border-radius: 8px !important;
+    color: white !important;
+}
