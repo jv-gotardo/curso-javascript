@@ -13,9 +13,14 @@ disciplinas.map((d)=>{
 
 mudar.addEventListener("click", ()=>{
     let divstrocadas = [...document.querySelectorAll(".troca")];
+    let divssemtroca = [...document.querySelectorAll(".discip:not(.troca)")]; 
+    //Método para not no query; o .discip limita o número de elementos a serem buscados pelo query.
     divstrocadas.map((e)=>{
         //O método appendChild adiciona essas classes selecionadas ao child
         caixa2.appendChild(e);
+    })
+    divssemtroca.map((e)=>{
+        caixa1.appendChild(e);
     })
 })
 
