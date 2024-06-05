@@ -48,5 +48,18 @@ discipl2.map((e, num)=>{
     ne.setAttribute("id", "d2_"+num); //A vantagem do map é que já tem um atributo embutido com número;
     //isso faz com que possa se modificar o id dele também de maneira dinâmica.
     ne.setAttribute("class", "discip dis1");
+
+    //Adicionando uma imagem ao elemento:
+    let btremoc = document.createElement("img");
+    btremoc.setAttribute("src", "./dancing-roach.gif");
+    btremoc.setAttribute("class", "dancing-roach");
+    btremoc.addEventListener(("click"), (e)=>{
+        //Para uso do removeChild, se referencia seu elemento pai; pode-se usar o remove para
+        //remover o elemento diretamente. Porém, não se pode utilizar target dessa forma, porque
+        //está referenciando a imagem, e não toda a div a ser removida.
+        caixa2.removeChild(e.target.parentNode);
+    })
+    ne.appendChild(btremoc);
+
     caixa2.appendChild(ne);
 })

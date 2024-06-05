@@ -49,3 +49,9 @@ button{
     border-radius: 8px !important;
     color: white !important;
 }
+.dancing-roach{
+    width: 60px;
+    height: 40px;
+    margin-left: 15px;
+    cursor: pointer;
+}
