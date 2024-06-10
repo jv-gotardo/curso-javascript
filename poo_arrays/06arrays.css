@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    box-sizing: border-box;
+    font-size: large;
+}
+.caixa{
+    border: 5px solid black;
+    width: 300px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    margin: 7px;
+    padding: 6px;
+    float: left;
+}
+.caixa input{
+    border: solid black;
+}
+.caixamenor{
+    border: 2px solid black;
+    width: 40px;
+    border-radius: 16px;
+    float: left;
+    cursor: pointer;
+    margin: 7px;
+    padding: 6px;
+}

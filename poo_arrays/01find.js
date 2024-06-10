@@ -7,7 +7,7 @@ let resultado = document.querySelector("#resultado");
 let arrayel = [2, 6, 3, 9, 7, 11, 14, 1, 8, 5];
 larray.innerHTML = arrayel;
 
-btnPes.addEventListener("click", (ev)=>{
+btnPes.addEventListener("click", ()=>{
     //O find retorna o valor do primeiro elemento do array, chamando cada valor de acordo com as
     //especificidades. Retorna valor, índice e array;
     let conl = arrayel.find((e, i)=>{
