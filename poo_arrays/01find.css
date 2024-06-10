@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    font-size: large;
+}
+.caixa{
+    border: 5px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding:5px;
+}
+.verde{
+    border-color: green !important;
+    background-color: white !important;
+}
+.azul{
+    border-color: blue !important;
+    background-color: white !important;
+}
+.vermelho{
+    border-color: red !important;
+    background-color: white !important;    
+}
+button{
+    width: 150px;
+    height: 40px;
+    background-color: navy;
+    color: white;
+    cursor: pointr;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+#pesquisa input{
+    padding: 10px;
+    border-radius: 5px;
+    width: 300px;
+}

@@ -60,6 +60,5 @@ discipl2.map((e, num)=>{
         caixa2.removeChild(e.target.parentNode);
     })
     ne.appendChild(btremoc);
-
     caixa2.appendChild(ne);
 })
