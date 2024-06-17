@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="15herancaex.css">
+</head>
+<body>
+    <div id="criarMarca" class="criarMarca">
+        <div class="campoform">
+            <label for="">Nome</label>
+            <input type="text" name="fnome" id="fnome" value="">
+        </div>
+        <div class="campoform">
+            <label for="">País</label>
+            <input type="text" name="fportas" id="fportas">
+        </div>
+        <div class="campoform">
+            <label for="">Veículo</label>
+            <input type="text" name="fveiculo" id="fveiculo">
+        </div>
+        <div class="campoform">
+            <label for="">Quilometragem</label>
+            <input type="number" name="fquilom" id="fquilom" disabled value="0">
+        </div>
+        <div class="campoform">
+            <label for="">Tipo</label>
+            <div class="radio">
+                <input type="radio" name="ftipo" id="ftiponormal" value="n" checked>Normal
+            <div>
+            <div class="radio">
+                <input type="radio" name="ftipo" id="ftipoa302" value="a">A302
+            </div>
+        </div>
+        <div class="campoform">
+            <button id="btnaddmarca">Adicionar</button>
+        </div>
+    </div>
+    <div class="marcas"></div>
+    <script src="15herancaex.js"></script>
+</body>
+</html>

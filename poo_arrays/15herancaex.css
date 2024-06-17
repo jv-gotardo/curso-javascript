@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0.5px;
+    border: none;
+    box-sizing: border-box;
+    font-size: medium;
+}
+.marcas{
+    display: flex;
+    width: 100%;
+    border: 2px solid gray;
+    padding: 4px;
+    border-radius: 2.5px;
+}
+.marca{
+    border: 2px darkcyan dashed;
+    background-color: lightskyblue;
+    padding: 4px;
+    border-radius: 2.5px;
+}
+.campoform{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-bottom: 12px;
+}
+.campoform input{
+    margin: 1px;
+    background-color: bisque;
+    padding: 4px;
+    border-radius: 2.5px;
+    border: 1px solid grey;
+}
+.campoform button{
+    background-color: rgb(141, 124, 55);
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 2.5px;
+}
