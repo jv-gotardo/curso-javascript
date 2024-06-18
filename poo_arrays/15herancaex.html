@@ -14,7 +14,7 @@
         </div>
         <div class="campoform">
             <label for="">País</label>
-            <input type="text" name="fportas" id="fportas">
+            <input type="text" name="fpais" id="fpais">
         </div>
         <div class="campoform">
             <label for="">Veículo</label>
@@ -22,13 +22,13 @@
         </div>
         <div class="campoform">
             <label for="">Quilometragem</label>
-            <input type="number" name="fquilom" id="fquilom" disabled value="0">
+            <input type="number" name="fquilom" id="fquilom" disabled value="0" min="0">
         </div>
         <div class="campoform">
             <label for="">Tipo</label>
             <div class="radio">
                 <input type="radio" name="ftipo" id="ftiponormal" value="n" checked>Normal
-            <div>
+            </div>
             <div class="radio">
                 <input type="radio" name="ftipo" id="ftipoa302" value="a">A302
             </div>
@@ -37,7 +37,9 @@
             <button id="btnaddmarca">Adicionar</button>
         </div>
     </div>
-    <div class="marcas"></div>
+    <div class="marcas" id="marcas">
+
+    </div>
     <script src="15herancaex.js"></script>
 </body>
 </html>
