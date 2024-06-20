@@ -3,20 +3,40 @@
     margin: 0.5px;
     border: none;
     box-sizing: border-box;
-    font-size: medium;
+    font-size: 0.99em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: lightskyblue;
+}
+section{
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
 .marcas{
     display: flex;
-    width: 100%;
+    margin-left: 1em;
+    width: 77em;
     border: 2px solid gray;
     padding: 4px;
     border-radius: 2.5px;
+    height: 115px;
 }
 .marca{
-    border: 2px darkcyan dashed;
+    border: 2px darkcyan groove;
     background-color: lightskyblue;
     padding: 4px;
-    border-radius: 2.5px;
+    border-radius: 4px;
+    display: flex;
+    float: left;
+    flex-direction: column;
+    width: 11em;
+}
+.marca button{
+    background-color: darkcyan;
+    cursor: pointer;
+}
+#distance{
+    margin-top: 20px;
 }
 .campoform{
     display: flex;
